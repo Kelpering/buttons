@@ -22,3 +22,72 @@
     font-size:25px;
     font-family:"Times New Roman", Times, serif;
 }
+
+#funny
+{
+    background-color:red;
+    border-color: yellow;
+}
+
+#unfunny
+{
+    background-color:cyan;
+}
+
+#saulbutton
+{
+    background: url("./saul.gif");
+    background-size: 25%;
+
+}
+
+#displayAddress
+{
+    height:500px;
+    width:20px;
+}
+
+#school:hover
+{
+    background-color:yellow;
+    color:blue;
+}
+#no
+{
+    width:20em;
+}
+
+#no:hover span
+{
+    display:none;
+}
+
+#no:hover:before
+{
+    content:"I always eat my ice cream at 4:63 in the morning.";
+}
+
+#money
+{
+    background-color:green;
+    color:darkBlue;
+}
+
+#money:hover
+{
+    background-color:blue;
+    color:darkgreen;
+}
+
+#give:hover
+{
+    display:none;
+}
+
+#bitcoin
+{
+    color:rgb(0, 255, 0);
+    height: 10em;
+    background-image: url("./timetillmidnight.webp");
+    background-size:100%;
+}
