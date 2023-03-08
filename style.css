@@ -23,19 +23,40 @@
     font-family:"Times New Roman", Times, serif;
 }
 
-#prompted
+#prompted:hover
 {
+    width:100%;
+}
 
+#prompted:hover span
+{
+    display:none;
+    
+}
+
+#prompted:hover:before
+{
+    content:"L O N G P R O M P T"
 }
 
 #addition
 {
-
+    background-color:black;
+    color:white;
 }
 
 #subtraction
 {
-    
+    background-color:blue;
+    color:blue;
+    border-style:none;
+}
+
+#subtraction:hover
+{
+    background-color:white;
+    color:black;
+    border-style:solid;
 }
 
 
