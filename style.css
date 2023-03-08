@@ -91,3 +91,12 @@
     background-image: url("./timetillmidnight.webp");
     background-size:100%;
 }
+#bitcoin:hover span
+{
+    display:none;
+}
+
+#bitcoin:hover:before
+{
+    content:"Our society is very close to ending and you can do nothing about it.";
+}
